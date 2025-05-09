@@ -9,7 +9,13 @@ function App() {
       <p className="font-body text-base">
         We have the softest carpets in town!
       </p>
+      <Hero />
+      <About />
+      <Gallery />
+      <Contact />
+      <Footer />
     </>
+    
   );
 }
 
