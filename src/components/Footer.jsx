@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-white px-6 md:px-20 py-10">
+    <footer className="bg-amber-800 text-white px-6 md:px-20 py-10">
       <div className="flex flex-col md:flex-row justify-between items-center gap-6">
         <h3 className="font-bold text-xl font-heading">CarpetBiz</h3>
 

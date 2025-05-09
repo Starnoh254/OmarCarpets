@@ -14,7 +14,7 @@ export default function Hero() {
         </p>
         <a
           href="#gallery"
-          className="inline-block bg-red-600 text-white font-body px-6 py-3 rounded-lg hover:bg-red-700 transition"
+          className="inline-block bg-amber-600 text-white font-body px-6 py-3 rounded-lg hover:bg-amber-700 transition"
         >
           View Gallery
         </a>
