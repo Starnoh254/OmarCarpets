@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="bg-amber-800 text-white px-6 md:px-20 py-10">
       <div className="flex flex-col md:flex-row justify-between items-center gap-6">
-        <h3 className="font-bold text-xl font-heading">CarpetBiz</h3>
+        <h3 className="font-bold text-xl font-heading">Omar Carpets</h3>
 
         <ul className="flex gap-6">
           <li>
@@ -31,7 +31,7 @@ export default function Footer() {
       </div>
 
       <div className="text-center mt-6 text-sm text-gray-400">
-        &copy; {new Date().getFullYear()} CarpetBiz. All rights reserved.
+        &copy; {new Date().getFullYear()} Omar Carpets. All rights reserved.
       </div>
     </footer>
   );
