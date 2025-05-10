@@ -16,6 +16,26 @@ export default function Gallery() {
       src: "/omarcarpets3.jpg",
       caption: "Modern Carpet Style",
     },
+    {
+      src: "/omarcarpets2.jpg",
+      caption: "Elegant Living Room Vibe",
+    },
+    {
+      src: "/omarcarpets4.jpg",
+      caption: "Warm and Cozy Touch",
+    },
+    {
+      src: "/omarcarpets6.jpg",
+      caption: "Modern Carpet Style",
+    },
+    {
+      src: "/omarcarpets7.jpg",
+      caption: "Elegant Living Room Vibe",
+    },
+    {
+      src: "/omarcarpets8.jpg",
+      caption: "Elegant Living Room Vibe",
+    },
   ];
   return (
     <section className="px-6 md:px-20 py-20 bg-white">

@@ -24,7 +24,11 @@ export default function Contact() {
         <div className="flex flex-col md:flex-row justify-center items-center gap-4">
           <div className="flex items-center gap-2">
             <FaPhoneAlt />
-            <span>+254 712 345 678</span>
+            <span>+254 798986176</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <FaPhoneAlt />
+            <span>+254 716052904</span>
           </div>
           <div className="flex items-center gap-2">
             <FaEnvelope />
