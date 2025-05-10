@@ -1,12 +1,12 @@
-import React from 'react'
+import React from "react";
 import {
   FaFacebookF,
   FaInstagram,
   FaTwitter,
   FaPhoneAlt,
   FaEnvelope,
+  FaTiktok,
 } from "react-icons/fa";
-
 
 export default function Contact() {
   return (
@@ -21,42 +21,43 @@ export default function Contact() {
           want to say hi.
         </p>
 
-        <div className="flex flex-col md:flex-row justify-center items-center gap-4">
-          <div className="flex items-center gap-2">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-5">
+          <div className="flex flex-col items-center gap-2">
             <FaPhoneAlt />
             <span>+254 798986176</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <FaPhoneAlt />
-            <span>+254 716052904</span>
+            <span>Hany Matar</span>
+            <span>CEO & Director</span>
           </div>
           <div className="flex items-center gap-2">
             <FaEnvelope />
-            <span>hello@carpetbiz.com</span>
+            <span>matarhany4@gmail.com</span>
           </div>
         </div>
 
         <div className="flex justify-center gap-6 text-xl text-blue-600 mt-6">
           <a
-            href="https://facebook.com"
+            href="https://facebook.com/omar_modern_carpets_curtains
+"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaFacebookF />
           </a>
           <a
-            href="https://instagram.com"
+            href="https://instagram.com/omar_modern_carpets_curtains
+"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaInstagram />
           </a>
           <a
-            href="https://twitter.com"
+            href="https://tiktok.com/omar_carpets_curtains
+"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaTwitter />
+            <FaTiktok />
           </a>
         </div>
       </div>
