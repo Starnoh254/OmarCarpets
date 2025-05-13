@@ -24,6 +24,7 @@ jobs:
         script: |
           cd /home/developer/OmarCarpets
           git pull origin main
+          node -v
           npm install
           npm run build
           sudo cp -r dist/* /var/www/omarmoderncarpets.co.ke/
