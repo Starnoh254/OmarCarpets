@@ -23,7 +23,11 @@ jobs:
         key: ${{ secrets.VPS_SSH_KEY }}
         script: |
           cd /home/developer/OmarCarpets
+          whoami
+          which node
+          echo $PATH
           git pull origin main
+          nvm use v22.14.0
           node -v
           npm install
           npm run build
