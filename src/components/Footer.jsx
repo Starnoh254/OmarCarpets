@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 export default function Footer() {
   return (
@@ -27,24 +28,44 @@ export default function Footer() {
         {/* Navigation Links */}
         <ul className="flex flex-col md:flex-row gap-4 md:items-center">
           <li>
-            <a href="#home" className="hover:text-gray-300">
+            <Link
+              to="home"
+              smooth={true}
+              duration={500}
+              className="cursor-pointer hover:text-gray-300"
+            >
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#about" className="hover:text-gray-300">
+            <Link
+              to="about"
+              smooth={true}
+              duration={500}
+              className="cursor-pointer hover:text-gray-300"
+            >
               About
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#gallery" className="hover:text-gray-300">
+            <Link
+              to="gallery"
+              smooth={true}
+              duration={500}
+              className="cursor-pointer hover:text-gray-300"
+            >
               Gallery
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#contact" className="hover:text-gray-300">
+            <Link
+              to="contact"
+              smooth={true}
+              duration={500}
+              className="cursor-pointer hover:text-gray-300"
+            >
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

@@ -10,7 +10,10 @@ import {
 
 export default function Contact() {
   return (
-    <section className="px-6 md:px-20 py-20 bg-gray-100 text-gray-800">
+    <section
+      id="contact"
+      className="px-6 md:px-20 py-20 bg-gray-100 text-gray-800"
+    >
       <h2 className="font-heading text-3xl md:text-5xl font-bold text-center mb-10">
         Get in Touch
       </h2>

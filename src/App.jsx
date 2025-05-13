@@ -12,7 +12,7 @@ function App() {
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold font-poppins tracking-tight animate-fade-in">
           Omar Carpets – Where Style Meets Comfort
         </h1>
-        <p className="text-lg mt-4 font-inter font-light">
+        <p className="text-lg mt-4 font-inter font-light animate-fade-in">
           Premium Carpets for Every Space
         </p>
       </div>

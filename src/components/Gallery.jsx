@@ -36,9 +36,29 @@ export default function Gallery() {
       src: "/omarcarpets8.jpg",
       caption: "Elegant Living Room Vibe",
     },
+    {
+      src: "/iran_carpet.jpg",
+      caption: "Iranian Carpet",
+    },
+    {
+      src: "/iran_carpet2.jpg",
+      caption: "Iranian Carpet",
+    },
+    {
+      src: "/iran_carpet3.jpg",
+      caption: "Iranian Carpet",
+    },
+    {
+      src: "/turkish_carpet1.jpg",
+      caption: "Turkish Carpet",
+    },
+    {
+      src: "/turkish_carpet2.jpg",
+      caption: "Turkish Carpet",
+    },
   ];
   return (
-    <section className="px-6 md:px-20 py-20 bg-white">
+    <section id="gallery" className="px-6 md:px-20 py-20 bg-white">
       <h2 className="font-heading text-3xl md:text-5xl font-bold text-center mb-10 text-gray-800">
         Our Gallery
       </h2>

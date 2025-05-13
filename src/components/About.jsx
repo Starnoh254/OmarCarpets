@@ -1,10 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 export default function About() {
+  useEffect(() => {
+    Aos.init();
+  },[])
   return (
-    <section className="bg-gray-50 px-6 md:px-20 py-20 flex flex-col md:flex-row items-center gap-10">
+    <section
+      id="about"
+      className="bg-gray-50 px-6 md:px-20 py-20 flex flex-col md:flex-row items-center gap-10"
+    >
       {/* Text Content */}
-      <div className="flex-1 text-center md:text-left">
+      <div className="flex-1 text-center md:text-left" data-aos="fade-right">
         <h2 className="font-heading text-3xl md:text-5xl font-bold text-gray-800 mb-6">
           About Our Business
         </h2>
@@ -35,7 +43,7 @@ export default function About() {
       </div>
 
       {/* Image */}
-      <div className="flex-1">
+      <div className="flex-1" data-aos="fade-left">
         <img
           src="/omarcarpets2.jpg" // use any carpet image you have or placeholder
           alt="About Carpet Business"
