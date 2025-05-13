@@ -1,0 +1,29 @@
+name: Deploy to VPS
+
+on:
+  push:
+    branches:
+      - main  # Trigger deployment on pushes to the 'main' branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Checkout the repo
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    # Deploy to VPS using SSH
+    - name: Deploy to VPS
+      uses: appleboy/ssh-action@v0.1.7
+      with:
+        host: ${{ secrets.VPS_HOST }}
+        username: ${{ secrets.VPS_USER }}
+        key: ${{ secrets.VPS_SSH_KEY }}
+        script: |
+          cd /home/developer/OmarCarpets
+          git pull origin main
+          npm install
+          npm run build
+          sudo cp -r dist/* /var/www/omarmoderncarpets.co.ke/
